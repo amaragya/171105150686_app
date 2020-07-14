@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agya\'s Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="dash">DASHBOARD</string>
+    <string name="dash_btn_checkbox">Halaman Checkbox</string>
+    <string name="dash_btn_radio">Halaman Radio</string>
+    <string name="dash_btn_formfill">Halaman Formulir</string>
+    <string name="dash_btn_kalkulator">Halaman Kalkulator</string>
+    <string name="dash_btn_logout">Logout</string>
+</resources>
