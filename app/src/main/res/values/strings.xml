@@ -7,4 +7,11 @@
     <string name="dash_btn_formfill">Halaman Formulir</string>
     <string name="dash_btn_kalkulator">Halaman Kalkulator</string>
     <string name="dash_btn_logout">Logout</string>
+    <string name="checkbox_widget">Checkbox Widget</string>
+    <string name="cb_python">Python</string>
+    <string name="cb_java_android">Android Programming</string>
+    <string name="cb_web_programming">web Programming</string>
+    <string name="cb_ms">C#, C++, .NET, VB</string>
+    <string name="cb_swift">Swift</string>
+    <string name="cb_btn_tampil">Tampilkan Pilihan</string>
 </resources>

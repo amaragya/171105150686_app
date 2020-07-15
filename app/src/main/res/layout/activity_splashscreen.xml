@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:layout_gravity="center_vertical|center_horizontal"
+    tools:context=".Splashscreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/watch_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:scaleType="center"
+        app:lottie_scale="0.5"
+        app:lottie_speed="4"
+        app:lottie_repeatCount="20"
+        app:lottie_repeatMode="restart"
+        app:lottie_fileName="26834-rocket.json"/>
+
+</FrameLayout>
