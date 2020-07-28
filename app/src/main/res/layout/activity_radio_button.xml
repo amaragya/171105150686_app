@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".RadioButtonActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih salah satu makanan yang kalian suka"/>
+
+        <RadioGroup
+            android:id="@+id/makananFavorit"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/nasgor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nasi Goreng" />
+
+            <RadioButton
+                android:id="@+id/miegore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mie Goreng" />
+
+            <RadioButton
+                android:id="@+id/kwetiaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kwetiaw" />
+
+            <RadioButton
+                android:id="@+id/spagetti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spagetti" />
+
+            <RadioButton
+                android:id="@+id/pizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pizza" />
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/saveRadioButtonActivity"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+
+</FrameLayout>

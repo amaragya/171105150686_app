@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBtnRadio(View view) {
-        Toast.makeText(this, "Oke mantap 1", Toast.LENGTH_SHORT).show();
+        goAnotherPage(RadioButtonActivity.class);
     }
 
     public void onClickBtnFormulir(View view) {
